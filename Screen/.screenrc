@@ -1,0 +1,11 @@
+startup_message off
+vbell off
+hardstatus on
+#hardstatus alwayslastline "%{+b kw}%H%{kg}|%c|%{ky}%d.%m.%Y|%{kg}%{kw}"
+#hardstatus alwayslastline "%{+b kw}%H%{kg}|%c|%{ky}%d.%m.%Y"
+#hardstatus alwayslastline "%{+b kw}%H|%{ky}%d.%m.%Y%<%-8=%{kg}%c:%s"
+hardstatus alwayslastline "%{+b kw}%H|%{ky}%d.%m.%Y%<%-6=%{kg}%c"
+#hardstatus alwayslastline "%H|%c|%d.%m.%Y|"
+caption always "%{+u wk}%?%-w%?%{rk}/%n %t\%{wk}%?%+w%?"
+
+
